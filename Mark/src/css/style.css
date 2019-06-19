@@ -1,0 +1,38 @@
+body {
+    background-color: #d63c37;
+}
+
+.header-text {
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+.list-of-paragraphs {
+    margin-left: 20px;
+    color: #333333;
+    text-align: right;
+}
+
+.paragraph {
+    margin-top: 45px;
+}
+
+.paragraph-header {
+    margin-bottom: 12px;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+
+.description {
+    line-height: 1.85;
+    font-weight: 500;
+}
+
+.paragraph-icon {
+    color: white;
+}
