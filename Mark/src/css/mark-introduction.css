@@ -1,0 +1,40 @@
+.header-text {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 29px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.header-text-mark {
+    color: #d63c37;
+    text-decoration: underline;
+}
+
+.photo {
+    margin-top: 150px
+}
+
+.list-of-paragraphs {
+    line-height: 1.85;
+}
+
+.paragraph {
+    margin-top: 40px;
+}
+
+.paragraph-icon {
+    color: #d63c37;
+}
+
+.paragraph-header {
+    font-size: 17px;
+    font-weight: 600;
+    color: #d63c37;
+}
+
+.paragraph-description {
+    font-size: 16.5px;
+    font-weight: 400;
+    color: #666666;
+}
