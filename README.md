@@ -2,10 +2,10 @@
 Here I am going to:
  - practice my frontend skills
  - upload all my works
-
+***
 ### Practice
 
-- Mark
+- **Mark**
 	- [Landing page](https://mlgmag.github.io/Mark/src/mark-landing)
 	- [Introduction](https://mlgmag.github.io/Mark/src/mark-introduction)
 	- [Performance](https://mlgmag.github.io/Mark/src/mark-performance)
