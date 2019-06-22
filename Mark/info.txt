@@ -10,4 +10,10 @@ Firts verison:
 
     Landing page:
     PhotoShop sample - https://i.imgur.com/GwbBBHF.png
-    My work          - https://i.imgur.com/exOe44O.png
+        
+        v.1: 
+        My work      - https://i.imgur.com/exOe44O.png
+
+        v.2: (Icon-menu)
+        My work      - 
+    
