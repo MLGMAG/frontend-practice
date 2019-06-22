@@ -3,7 +3,7 @@ body {
 }
 
 .header-text {
-    margin-top: 300px;
+    margin-top: 275px;
     font-weight: bold;
     color: #333333;
 }
@@ -18,13 +18,13 @@ body {
 }
 
 .landing-image {
-    margin-top: 241px;
+    margin-top: 170px;
 }
 
 .link-menu {
     position: fixed;
     right: 4%;
-    top: 10%;
+    top: 7%;
     width: 30px;
 }
 
@@ -34,4 +34,9 @@ body {
 
 .menu-icon a {
     color: #7f7f7f;
+}
+
+.bottom-navbar {
+    margin-top: 35px;
+    margin-left: 63px;
 }
