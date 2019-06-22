@@ -35,3 +35,18 @@ body {
 .paragraph-icon {
     color: white;
 }
+
+.link-menu {
+    position: fixed;
+    right: 4%;
+    top: 7%;
+    width: 30px;
+}
+
+.menu-icon {
+    margin-bottom: 30px;
+}
+
+.menu-icon a {
+    color: white;
+}
