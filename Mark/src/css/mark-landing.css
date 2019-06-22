@@ -1,0 +1,22 @@
+body {
+    background: white;
+}
+
+.header-text {
+    margin-top: 300px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.header-text span {
+    color: #d63c37;
+}
+
+.header-description {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.landing-image {
+    margin-top: 247px;
+}
