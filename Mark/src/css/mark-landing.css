@@ -21,6 +21,23 @@ body {
   margin-top: 170px;
 }
 
+.bottom-navbar {
+  margin-top: 35px;
+  margin-left: 63px;
+}
+
+@media (max-width: 1000px) {
+  .bottom-navbar {
+    margin-top: 20px;
+    margin-left: 0px;
+    
+  }
+
+  .bottom-navbar-element {
+    margin-bottom: 40px;
+  }
+}
+
 .link-menu {
   position: fixed;
   right: 4%;
@@ -34,9 +51,4 @@ body {
 
 .menu-icon a {
   color: #7f7f7f;
-}
-
-.bottom-navbar {
-  margin-top: 35px;
-  margin-left: 63px;
 }
