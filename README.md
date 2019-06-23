@@ -9,7 +9,6 @@ Here I am going to:
 
 - **Mark** 
 	- <a href="https://mlgmag.github.io/Mark/src/mark-landing" target="_blank">Landing page</a>
-	- [Landing page](https://mlgmag.github.io/Mark/src/mark-landing)
-	- [Introduction](https://mlgmag.github.io/Mark/src/mark-introduction) 
-	- [Performance](https://mlgmag.github.io/Mark/src/mark-performance) 
-	- [Scroll version]() (all in one)
+	- <a href="https://mlgmag.github.io/Mark/src/mark-introduction" target="_blank">Introduction</a>
+	- <a href="https://mlgmag.github.io/Mark/src/mark-performance" target="_blank">Performance</a>
+	- <a href="#">Scroll version</a> (all in one)
