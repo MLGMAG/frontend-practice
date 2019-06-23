@@ -25,7 +25,7 @@ body {
 /* Introduction page */
 .introduction-header-text {
   margin-top: 70px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   font-size: 29px;
   font-weight: bold;
   color: #333333;
@@ -37,7 +37,7 @@ body {
 }
 
 .introduction-photo {
-  margin-top: 166px;
+  margin-top: 146px;
 }
 
 .introduction-list-of-paragraphs {
@@ -45,7 +45,8 @@ body {
 }
 
 .introduction-paragraph {
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .introduction-paragraph-icon {
@@ -64,6 +65,56 @@ body {
   color: #666666;
 }
 
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .introduction-header-text {
+    margin-bottom: 30px;
+  }
+
+  .introduction-photo {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .introduction-exposition {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  .introduction-header-text {
+    margin-bottom: 40px;
+  }
+
+  .introduction-photo {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .introduction-exposition {
+    margin-top: 40px;
+  }
+
+  .introduction-content {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction-header-text {
+    margin-bottom: 40px;
+  }
+
+  .introduction-photo {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .introduction-exposition {
+    margin-top: 40px;
+  }
+}
+
 /* Performance */
 .performance-header-text {
   margin-top: 75px;
@@ -76,7 +127,6 @@ body {
 
 .performance-list-of-paragraphs {
   margin-left: 20px;
-  color: #333333;
   text-align: right;
 }
 
@@ -102,6 +152,38 @@ body {
 .performance-background-color {
   background: #d63c37;
   padding-bottom: 49px;
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .performance-list-of-paragraphs {
+    margin-right: 3%;
+  }
+}
+
+@media (max-width: 991px) {
+  .performance-paragraph-icon {
+    text-align: center;
+  }
+
+  .fa-cloud {
+    margin-top: 65%;
+  }
+
+  .fa-css3 {
+    margin-top: 50%;
+  }
+
+  .fa-bolt {
+    margin-top: 100%;
+  }
+
+  .fa-cog {
+    margin-top: 80%;
+  }
+
+  .fa-fire {
+    margin-top: 80%;
+  }
 }
 
 /* Link menu */
