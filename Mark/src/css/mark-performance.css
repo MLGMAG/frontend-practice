@@ -1,52 +1,52 @@
 body {
-    background-color: #d63c37;
+  background-color: #d63c37;
 }
 
 .header-text {
-    margin-top: 75px;
-    margin-bottom: 50px;
-    font-size: 28px;
-    font-weight: bold;
-    color: white;
-    text-decoration: underline;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
 }
 
 .list-of-paragraphs {
-    margin-left: 20px;
-    color: #333333;
-    text-align: right;
+  margin-left: 20px;
+  color: #333333;
+  text-align: right;
 }
 
 .paragraph {
-    margin-top: 45px;
+  margin-top: 45px;
 }
 
 .paragraph-header {
-    margin-bottom: 12px;
-    font-size: 22px;
-    font-weight: 700;
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 .paragraph-description {
-    line-height: 1.85;
-    font-weight: 500;
+  line-height: 1.85;
+  font-weight: 500;
 }
 
 .paragraph-icon {
-    color: white;
+  color: white;
 }
 
 .link-menu {
-    position: fixed;
-    right: 4%;
-    top: 7%;
-    width: 30px;
+  position: fixed;
+  right: 4%;
+  top: 7%;
+  width: 30px;
 }
 
 .menu-icon {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .menu-icon a {
-    color: #6b1e1b;
+  color: #6b1e1b;
 }

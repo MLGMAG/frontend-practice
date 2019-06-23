@@ -1,42 +1,42 @@
 body {
-    background: white;
+  background: white;
 }
 
 .header-text {
-    margin-top: 275px;
-    font-weight: bold;
-    color: #333333;
+  margin-top: 275px;
+  font-weight: bold;
+  color: #333333;
 }
 
 .header-text span {
-    color: #d63c37;
+  color: #d63c37;
 }
 
 .header-description {
-    margin-top: 20px;
-    color: #333333;
+  margin-top: 20px;
+  color: #333333;
 }
 
 .landing-image {
-    margin-top: 170px;
+  margin-top: 170px;
 }
 
 .link-menu {
-    position: fixed;
-    right: 4%;
-    top: 7%;
-    width: 30px;
+  position: fixed;
+  right: 4%;
+  top: 7%;
+  width: 30px;
 }
 
 .menu-icon {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .menu-icon a {
-    color: #7f7f7f;
+  color: #7f7f7f;
 }
 
 .bottom-navbar {
-    margin-top: 35px;
-    margin-left: 63px;
+  margin-top: 35px;
+  margin-left: 63px;
 }
