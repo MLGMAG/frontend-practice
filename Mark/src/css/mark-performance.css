@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #d63c37;
 }
 
 .header-text {
@@ -33,11 +33,6 @@ body {
 
 .paragraph-icon {
   color: white;
-}
-
-.background-color {
-  background: #d63c37;
-  padding-bottom: 49px;
 }
 
 @media (max-width: 991px) {
