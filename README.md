@@ -8,7 +8,7 @@ Here I am going to:
 ### Practice
 
 - **Mark** 
-	- [Landing page](https://mlgmag.github.io/Mark/src/mark-landing) 
+	- [Landing page](https://mlgmag.github.io/Mark/src/mark-landing){:target="_blank"}
 	- [Introduction](https://mlgmag.github.io/Mark/src/mark-introduction) 
 	- [Performance](https://mlgmag.github.io/Mark/src/mark-performance) 
 	- [Scroll version]() (all in one)
