@@ -13,7 +13,6 @@ body {
 
 .list-of-paragraphs {
   margin-left: 20px;
-  color: #333333;
   text-align: right;
 }
 
@@ -41,6 +40,18 @@ body {
   padding-bottom: 49px;
 }
 
+@media (max-width: 991px) {
+  .paragraph-icon {
+    text-align: center;
+    margin-top: 55px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1100px) {
+  .list-of-paragraphs {
+    margin-right: 3%;
+  }
+}
 .link-menu {
   position: fixed;
   right: 4%;
