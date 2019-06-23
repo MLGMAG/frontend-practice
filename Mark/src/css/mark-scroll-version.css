@@ -1,0 +1,126 @@
+body {
+  background: white;
+}
+
+/* Landing page */
+.landing-header-text {
+  margin-top: 300px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.landing-header-text span {
+  color: #d63c37;
+}
+
+.landing-header-description {
+  margin-top: 20px;
+  color: #333333;
+}
+
+.landing-image {
+  margin-top: 244px;
+}
+
+/* Introduction page */
+.introduction-header-text {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 29px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.introduction-header-text span {
+  color: #d63c37;
+  text-decoration: underline;
+}
+
+.introduction-photo {
+  margin-top: 166px;
+}
+
+.introduction-list-of-paragraphs {
+  line-height: 1.85;
+}
+
+.introduction-paragraph {
+  margin-top: 40px;
+}
+
+.introduction-paragraph-icon {
+  color: #d63c37;
+}
+
+.introduction-paragraph-header {
+  font-size: 17px;
+  font-weight: 600;
+  color: #d63c37;
+}
+
+.introduction-paragraph-description {
+  font-size: 16.5px;
+  font-weight: 400;
+  color: #666666;
+}
+
+/* Performance */
+.performance-header-text {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.performance-list-of-paragraphs {
+  margin-left: 20px;
+  color: #333333;
+  text-align: right;
+}
+
+.performance-paragraph {
+  margin-top: 45px;
+}
+
+.performance-paragraph-header {
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.performance-paragraph-description {
+  line-height: 1.85;
+  font-weight: 500;
+}
+
+.performance-paragraph-icon {
+  color: white;
+}
+
+.performance-background-color {
+  background: #d63c37;
+  padding-bottom: 49px;
+}
+
+/* Link menu */
+.link-menu {
+  position: fixed;
+  right: 4%;
+  top: 7%;
+  width: 30px;
+}
+
+.menu-icon {
+  margin-bottom: 30px;
+}
+
+.menu-icon a {
+  color: black;
+}
+
+.bottom-navbar {
+  margin-top: 35px;
+  margin-left: 63px;
+}
