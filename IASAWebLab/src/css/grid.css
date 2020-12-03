@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-social {
+    display: flex;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-container-item a {
+    float: left;
+}
+
+.info-section-form {
+    display: flex;
+    flex-direction: column;
+}
