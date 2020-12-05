@@ -51,15 +51,6 @@
 }
 
 /**
- * Pricing section
- */
-.pricing-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/**
  * Video section
  */
 .video-section {
@@ -82,8 +73,23 @@
 }
 
 /**
+ * Pricing section
+ */
+.pricing-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/**
  * Info section
  */
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .info-section-form {
     display: flex;
     flex-direction: column;

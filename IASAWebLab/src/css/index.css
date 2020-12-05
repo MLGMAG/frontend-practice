@@ -244,46 +244,32 @@ tr:last-child td {
 /**
  * Info section
  */
-.info-section {
+.info-section-element {
+    width: 100%;
     text-align: center;
 }
 
 .info-section .section-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
     font-size: 48px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.info-section-form {
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
 .info-section-form label {
     font-size: 26px;
-    margin-bottom: 20px;
 }
 
 .info-section-form input {
+    width: 30%;
     padding: 4px;
     text-align: center;
     font-size: 18px;
-    margin-bottom: 35px;
     border: 4px solid;
     border-radius: 12px;
 }
 
 .info-section-form input:last-child {
     border: none;
+    width: 15%;
     font-size: 26px;
-}
-
-.submit-button {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-    width: 220px;
     background: linear-gradient(45deg, #D8FF7E 0%, #97E7A2 100%);
 }
