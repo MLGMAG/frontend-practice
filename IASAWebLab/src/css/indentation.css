@@ -88,3 +88,28 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+/**
+ * Video section
+ */
+.video-section-element {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.video-section .section-header {
+    margin-bottom: 5%;
+}
+
+.video-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.video-container-item {
+    margin-bottom: 5%;
+}
+
+.video-container-paragraph {
+    margin-left: 5%;
+}
