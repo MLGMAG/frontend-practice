@@ -26,8 +26,16 @@
 /**
  * Title section
  */
-
 .title-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/**
+ * Experience section
+ */
+.experience-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
