@@ -70,6 +70,11 @@ main {
 /**
  * Experience section
  */
+.experience-section-element {
+    width: 100%;
+    text-align: center;
+}
+
 .experience-section .section-header {
     font-size: 48px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -90,38 +95,24 @@ main {
 /**
  * Schedule section
  */
-.schedule-section {
-    margin-bottom: 50px;
+.schedule-section-element {
+    width: 100%;
     text-align: center;
 }
 
 .schedule-section .section-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
     font-size: 48px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.schedule-paragraph-1 {
-    margin-left: 18%;
-    margin-right: 18%;
-    text-align: justify;
-    font-size: 24px;
-    text-indent: 50px;
-}
-
-.schedule-paragraph-2 {
-    margin-top: 20px;
-    margin-left: 18%;
-    margin-right: 18%;
+.schedule-paragraph {
+    width: 50%;
     text-align: justify;
     font-size: 24px;
     text-indent: 50px;
 }
 
 .schedule-items-container {
-    margin-top: 50px;
-    margin-bottom: 35px;
     display: flex;
     justify-content: center;
 }
