@@ -113,3 +113,20 @@
 .video-container-paragraph {
     margin-left: 5%;
 }
+
+/**
+ * Pricing section
+ */
+.pricing-section-element {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.pricing-paragraph {
+    margin: 3% auto;
+}
+
+.pricing-table {
+    margin-left: auto;
+    margin-right: auto;
+}
