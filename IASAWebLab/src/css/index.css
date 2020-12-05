@@ -1,51 +1,49 @@
-.sidebar {
-    height: 100%;
-    width: 390px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(45deg, rgb(216, 255, 126), rgb(151, 231, 162));
-    overflow-x: hidden;
-}
-
+/**
+ * Fonts
+ */
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-.sidebar-icon {
-    display: block;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
+/**
+ * Sidebar
+ */
+.sidebar {
+    height: 100%;
+    width: 390px;
+    background-image: linear-gradient(45deg, rgb(216, 255, 126), rgb(151, 231, 162));
+    text-align: center;
 }
 
-.sidebar-nav {
-    text-align: center;
-    margin: 8px auto 25px;
+.sidebar-content {
+    height: 100%;
+}
+
+.sidebar-content-element {
+    width: 100%;
+}
+
+.sidebar-icon {
+    display: block;
 }
 
 .sidebar-nav-item {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    display: block;
     text-decoration: none;
     font-size: 24px;
     color: #171717;
-    display: block;
 }
 
-.sidebar-social {
-    justify-content: center;
-}
-
-.sidebar-social-item {
-    margin-left: 13px;
-    margin-right: 13px;
-}
-
+/**
+ * Main
+ */
 main {
     margin-left: 390px;
 }
 
+/**
+ * Title section
+ */
 .title-section {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -67,6 +65,9 @@ main {
     text-indent: 50px;
 }
 
+/**
+ * Experience section
+ */
 .experience-section {
     margin-bottom: 50px;
     text-align: center;
@@ -94,6 +95,9 @@ main {
     margin-bottom: 55px;
 }
 
+/**
+ * Schedule section
+ */
 .schedule-section {
     margin-bottom: 50px;
     text-align: center;
@@ -177,6 +181,9 @@ main {
     font-size: 13px;
 }
 
+/**
+ * Video section
+ */
 .video-section {
     text-align: center;
 }
@@ -214,6 +221,9 @@ main {
     text-align: justify;
 }
 
+/**
+ * Pricing section
+ */
 .pricing-section {
     text-align: center;
 }
@@ -262,6 +272,9 @@ tr:last-child td {
     font-size: 22px;
 }
 
+/**
+ * Info section
+ */
 .info-section {
     text-align: center;
 }

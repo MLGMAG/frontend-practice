@@ -1,12 +1,39 @@
+/**
+ * grid.css contains all CSS properties,
+ * that configure layout.
+ * display, position, float...
+ */
+
+/**
+ * Main
+ */
 main {
+    display: flex;
+    flex-direction: column;
+}
+
+/**
+ * Sidebar
+ */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-content {
     display: flex;
     flex-direction: column;
 }
 
 .sidebar-social {
     display: flex;
+    justify-content: space-evenly;
 }
 
+/**
+ * Video section
+ */
 .video-container {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +43,9 @@ main {
     float: left;
 }
 
+/**
+ * Info section
+ */
 .info-section-form {
     display: flex;
     flex-direction: column;
