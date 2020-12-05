@@ -70,3 +70,21 @@
 .experience-section li {
     margin-bottom: 8%;
 }
+
+/**
+ * Schedule section
+ */
+.schedule-section-element {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.schedule-section .section-header {
+    margin-bottom: 5%;
+}
+
+.schedule-paragraph {
+    margin-bottom: 3%;
+    margin-right: auto;
+    margin-left: auto;
+}
