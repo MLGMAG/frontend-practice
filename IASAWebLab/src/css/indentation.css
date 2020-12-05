@@ -130,3 +130,29 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/**
+ * Info section
+ */
+.info-section-element {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.info-section .section-header {
+    margin-bottom: 4%;
+}
+
+.info-section-form label {
+    margin-bottom: 2%;
+}
+
+.info-section-form input {
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-section-form input:last-child {
+    padding: 1%;
+}
