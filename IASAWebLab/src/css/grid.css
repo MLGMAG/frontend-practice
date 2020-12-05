@@ -51,6 +51,15 @@
 }
 
 /**
+ * Pricing section
+ */
+.pricing-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/**
  * Video section
  */
 .video-section {

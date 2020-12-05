@@ -195,27 +195,25 @@ main {
 /**
  * Pricing section
  */
-.pricing-section {
+.pricing-section-element {
+    width: 100%;
     text-align: center;
 }
 
 .pricing-section .section-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
     font-size: 48px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .pricing-paragraph {
-    margin-left: 18%;
-    margin-right: 18%;
+    width: 50%;
     text-align: justify;
     font-size: 24px;
     text-indent: 50px;
 }
 
 .pricing-table {
-    margin: 35px 15%;
+    width: 50%;
 }
 
 .pricing-table table {
@@ -224,7 +222,7 @@ main {
     border-radius: 20px;
 }
 
-th, td {
+.pricing-table table th, td {
     width: 33%;
     padding: 13px;
     border-bottom: 2px solid black;
