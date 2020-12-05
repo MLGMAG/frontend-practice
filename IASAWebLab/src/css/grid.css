@@ -5,14 +5,6 @@
  */
 
 /**
- * Main
- */
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-/**
  * Sidebar
  */
 .sidebar {
@@ -23,12 +15,22 @@ main {
 
 .sidebar-content {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .sidebar-social {
     display: flex;
     justify-content: space-evenly;
+}
+
+/**
+ * Title section
+ */
+
+.title-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /**

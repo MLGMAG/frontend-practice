@@ -35,6 +35,13 @@ body {
 }
 
 /**
+ * All
+ */
+html, body, main, section {
+    height: 100%;
+}
+
+/**
  * Main
  */
 main {
@@ -44,14 +51,9 @@ main {
 /**
  * Title section
  */
-.title-section {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.title-section-element {
+    width: 100%;
     text-align: center;
-}
-
-.title-image {
-    margin-bottom: 35px;
 }
 
 .title-section .section-header {
@@ -59,7 +61,7 @@ main {
 }
 
 .title-paragraph {
-    margin: 35px 10% 40px;
+    width: 50%;
     font-size: 24px;
     text-align: justify;
     text-indent: 50px;
