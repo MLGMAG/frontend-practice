@@ -1,0 +1,32 @@
+/**
+ * indentation.css contains all CSS properties,
+ * that starts with margin-, padding-.
+ */
+
+
+/**
+ * Sidebar
+ */
+.sidebar-content-element {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sidebar-icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar-nav {
+    margin-bottom: 6%;
+}
+
+.sidebar-nav-item {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.sidebar-social {
+    margin-left: 20%;
+    margin-right: 20%;
+}
