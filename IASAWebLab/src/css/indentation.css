@@ -32,7 +32,7 @@
 }
 
 /**
- * Title
+ * Title section
  */
 .title-section-element {
     margin-top: auto;
@@ -48,4 +48,25 @@
     margin-bottom: 5%;
     margin-right: auto;
     margin-left: auto;
+}
+
+/**
+ * Experience section
+ */
+.experience-section-element {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.experience-section .section-header {
+    margin-bottom: 5%;
+}
+
+.experience-section ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience-section li {
+    margin-bottom: 8%;
 }
