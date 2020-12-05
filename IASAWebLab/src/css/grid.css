@@ -24,27 +24,9 @@
 }
 
 /**
- * Title section
+ * All sections
  */
-.title-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/**
- * Experience section
- */
-.experience-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/**
- * Schedule section
- */
-.schedule-section {
+section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -53,12 +35,6 @@
 /**
  * Video section
  */
-.video-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .video-container {
     display: flex;
     flex-direction: column;
@@ -73,23 +49,8 @@
 }
 
 /**
- * Pricing section
- */
-.pricing-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-/**
  * Info section
  */
-.info-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .info-section-form {
     display: flex;
     flex-direction: column;
