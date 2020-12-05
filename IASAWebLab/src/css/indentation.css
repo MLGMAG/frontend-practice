@@ -30,3 +30,22 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+
+/**
+ * Title
+ */
+.title-section-element {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title-section .section-header {
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.title-paragraph {
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
