@@ -124,6 +124,7 @@ main {
 .schedule-items-container {
     display: flex;
     justify-content: center;
+    width: 75%;
 }
 
 .schedule-item img {
@@ -137,8 +138,6 @@ main {
     border-radius: 20%;
     height: 301px;
     width: 220px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .schedule-item-content {
@@ -160,6 +159,7 @@ main {
 }
 
 .schedule-item-content a {
+    font-weight: 500;
     display: block;
     width: 90px;
     height: 20px;
