@@ -32,6 +32,11 @@ section {
     justify-content: center;
 }
 
+.schedule-items-container {
+    display: flex;
+    justify-content: center;
+}
+
 /**
  * Video section
  */
