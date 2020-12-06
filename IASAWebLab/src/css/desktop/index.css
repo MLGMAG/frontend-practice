@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    line-height: 2em;
 }
 
 h2 {
@@ -155,8 +156,7 @@ main {
 }
 
 .schedule-item-content h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 18px;
 }
 
@@ -177,7 +177,7 @@ main {
     background-image: linear-gradient(45deg, rgb(216, 255, 126), rgb(151, 231, 162));
     color: #171717;
     margin-top: 20px;
-    padding-top: 7px;
+    padding-bottom: 10px;
     font-size: 13px;
 }
 

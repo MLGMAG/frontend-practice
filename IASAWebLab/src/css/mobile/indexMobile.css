@@ -1,0 +1,68 @@
+@media screen and (max-width: 425px) {
+    .sidebar {
+        visibility: hidden;
+    }
+
+    .burger-menu {
+        visibility: visible;
+    }
+
+    .schedule-items-container {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .schedule-items-accordion {
+        visibility: visible;
+        height: 100%;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .title-image {
+        height: 240px;
+        width: 221px;
+    }
+
+    .title-section .section-header {
+        font-size: 32px;
+    }
+
+    .title-paragraph {
+        width: 80%;
+        font-size: 18px;
+        text-indent: 25px;
+    }
+
+    .experience-section .section-header {
+        font-size: 32px;
+    }
+
+    .experience-section ul {
+        width: 75%;
+        font-size: 18px;
+    }
+
+    .schedule-section .section-header {
+        font-size: 32px;
+    }
+
+    .schedule-paragraph {
+        width: 80%;
+        font-size: 18px;
+        text-indent: 25px;
+    }
+
+    .accordion {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .panel .schedule-item-content a {
+        height: 40px;
+        width: 120px;
+        font-size: 18px;
+    }
+}
