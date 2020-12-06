@@ -8,10 +8,21 @@
     <link rel="stylesheet" href="css/desktop/grid.css">
     <link rel="stylesheet" href="css/desktop/indentation.css">
     <link rel="stylesheet" href="css/desktop/index.css">
+    <link rel="stylesheet" href="css/desktop/burger-menu.css">
+    <link rel="stylesheet" href="css/desktop/accordion.css">
+    <link rel="stylesheet" href="css/tablet/indexTablet.css">
+    <link rel="stylesheet" href="css/tablet/indentationTablet.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<div class="burger-menu" onclick="switchIcon(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+
 <div class="sidebar">
     <div class="sidebar-content">
         <div class="sidebar-content-element">
@@ -98,14 +109,58 @@
     <section class="schedule-section" id="Schedule">
         <div class="schedule-section-element">
             <h2 class="section-header">Schedule</h2>
+
             <p class="schedule-paragraph">
                 Ut ullamcorper ultrices <strong>tempor</strong>. Aenean dictum odio neque, at cursus odio lacinia in.
             </p>
+
             <p class="schedule-paragraph">
                 Curabitur sit amet libero non purus tincidunt <strong>ullamcorper vitae ac ligula</strong>. Nulla
                 euismod
                 eget urna in interdum.
             </p>
+
+            <div class="schedule-items-accordion">
+                <div class="accordion-element">
+                    <button class="accordion" onclick="openCloseAccordion(this)">Monday</button>
+                    <div class="panel">
+                        <div class="schedule-item-content">
+                            <h2>Monday lessons</h2>
+                            <p>Cras tincidunt ullamcorper lacinia. Vestibulum auctor elit lectus, ac sagittis diam
+                                blandit
+                                vel.</p>
+                            <a href="">More info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-element">
+                    <button class="accordion" onclick="openCloseAccordion(this)">Thursday</button>
+                    <div class="panel">
+                        <div class="schedule-item-content">
+                            <h2>Thursday lessons</h2>
+                            <p>Cras tincidunt ullamcorper lacinia. Vestibulum auctor elit lectus, ac sagittis diam
+                                blandit
+                                vel.</p>
+                            <a href="">More info</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-element">
+                    <button class="accordion" onclick="openCloseAccordion(this)">Sunday</button>
+                    <div class="panel">
+                        <div class="schedule-item-content">
+                            <h2>Sunday lessons</h2>
+                            <p>Cras tincidunt ullamcorper lacinia. Vestibulum auctor elit lectus, ac sagittis diam
+                                blandit
+                                vel.</p>
+                            <a href="">More info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="schedule-items-container">
                 <article class="schedule-item">
                     <img src="img/shedule/monday.png" alt="Monday image">
@@ -116,6 +171,7 @@
                         <a href="">More info</a>
                     </div>
                 </article>
+
                 <article class="schedule-item">
                     <img src="img/shedule/thursday.png" alt="Thursday image">
                     <div class="schedule-item-content">
@@ -125,6 +181,7 @@
                         <a href="">More info</a>
                     </div>
                 </article>
+
                 <article class="schedule-item">
                     <img src="img/shedule/thursday.png" alt="Sunday image">
                     <div class="schedule-item-content">
@@ -263,5 +320,7 @@
     </section>
 </main>
 
+<script src="js/burger-menu.js"></script>
+<script src="js/accordion.js"></script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+@media (min-width: 425px) and (max-width: 768px) {
+    .sidebar {
+        visibility: hidden;
+    }
+
+    .burger-menu {
+        visibility: visible;
+    }
+
+    .schedule-items-container {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .schedule-items-accordion {
+        visibility: visible;
+        height: 100%;
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    .title-paragraph,
+    .schedule-paragraph,
+    .pricing-paragraph,
+    .pricing-table {
+        width: 80%;
+    }
+
+    .experience-section ul {
+        width: 80%;
+    }
+
+    .schedule-item img {
+        height: 139px;
+        width: 220px;
+    }
+
+    .video-container-paragraph {
+        width: 80%;
+    }
+
+    .video-container-img {
+        height: 105px;
+        width: 157px;
+    }
+
+    .info-section-form input {
+        width: 60%;
+    }
+
+    .info-section-form input:last-child {
+        width: 30%;
+    }
+}

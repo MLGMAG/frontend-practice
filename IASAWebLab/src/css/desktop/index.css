@@ -43,11 +43,21 @@ strong {
     color: #171717;
 }
 
+.burger-menu {
+    visibility: hidden;
+}
+
+.schedule-items-accordion {
+    visibility: hidden;
+    height: 0;
+}
+
 /**
  * All
  */
 html, body, main, section {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 /**
