@@ -67,11 +67,11 @@ section > div {
  * Schedule section
  */
 .schedule-section .section-header {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .schedule-paragraph {
-    margin-bottom: 3%;
+    margin-bottom: 4%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -109,8 +109,15 @@ section > div {
 /**
  * Pricing section
  */
+
+.pricing-section .section-header {
+    margin-bottom: 3%;
+}
+
 .pricing-paragraph {
-    margin: 3% auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3%;
 }
 
 .pricing-table {
