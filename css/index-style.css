@@ -1,9 +1,39 @@
 p {
 	margin: 0;
+	padding: 0;
+}
+
+div, p, input, button, form, span, a, ul, li, img {
+    box-sizing: border-box;
 }
 
 body {
 	font-family: "Roboto", sans-serif;
+}
+
+.logo {
+	width: 45px;
+	height: 45px;
+}
+
+.bg-blue {
+	background-color: #3F51B5;
+}
+
+.bg-dark-green {
+	background-color:#26A69A;
+}
+
+.bg-dark-blue {
+	background-color: #114683;
+}
+
+.light-blue {
+	color: #CDD1EA;
+}
+
+.fz-12 {
+	font-size: 12px;
 }
 
 .profile-page {
@@ -56,3 +86,4 @@ body {
 .profile-page .user-actions .actions-text:hover {
 	color: #1665D8;
 }
+
