@@ -32,6 +32,19 @@ body {
 	color: #CDD1EA;
 }
 
+.dark-grey {
+	color: #9EA0A5;
+}
+
+.grey {
+	color: #66788A;
+}
+
+.logo-size {
+	height: 24px;
+	width: 24px;
+}
+
 .fz-12 {
 	font-size: 12px;
 }
