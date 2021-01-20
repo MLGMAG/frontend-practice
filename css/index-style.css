@@ -11,11 +11,6 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-.logo {
-	width: 45px;
-	height: 45px;
-}
-
 .bg-blue {
 	background-color: #3F51B5;
 }
@@ -32,12 +27,21 @@ body {
 	color: #CDD1EA;
 }
 
+.dark-blue {
+	color: #3A3B3F;
+}
+
 .dark-grey {
 	color: #9EA0A5;
 }
 
 .grey {
 	color: #66788A;
+}
+
+.logo {
+	width: 45px;
+	height: 45px;
 }
 
 .logo-size {
@@ -49,9 +53,34 @@ body {
 	font-size: 12px;
 }
 
-.profile-page {
-	width: 375px;
-	margin: 20px;
+.fz-16 {
+	font-size: 16px;
+}
+
+.margin-15 {
+	margin: 15px;
+}
+
+.border-grey {
+	border: 1px solid rgba(0, 0, 0, 0.32);
+}
+
+.btn-border {
+	border: 0.5px solid #bcadff;
+}
+
+.profile-link:hover::after{
+	content: " ";
+	display: block;
+	position: absolute;
+	height: 2px;
+	background: #1665D8;
+	width: 110%;
+	left: -5%;
+	top: 200%;
+}
+
+.profile-border {
 	border: 1px solid #E4E7EB;
 	box-shadow: 1px 1px 3px #E4E7EB;
 	border-radius: 10px;
@@ -60,6 +89,10 @@ body {
 .profile-page .user {
 	display: flex;
 	justify-content: space-around;
+}
+
+.profile-page .user .user-info .user-name {
+	margin-top: 10px;
 }
 
 .profile-page .user .user-photo {
@@ -98,5 +131,23 @@ body {
 
 .profile-page .user-actions .actions-text:hover {
 	color: #1665D8;
+}
+
+.input-placeholder {
+	margin-top: -8px;
+	margin-left: 10px;
+	padding-left: 4px;
+	padding-right: 4px;
+	z-index: 1;
+	display: none;
+	color: #1665D8;
+	background:white;
+	position: absolute;
+}
+
+.checkbox-form {
+	width: 593px;
+	margin-left: auto;
+	margin-right: 70px;
 }
 
