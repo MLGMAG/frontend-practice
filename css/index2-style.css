@@ -1,0 +1,63 @@
+.bg-green {
+    background-color: #47B881;
+}
+
+.gray {
+    color: #616161;
+}
+
+.outline-noun {
+    outline: none;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.header-image {
+    background-image: url("../img/header-bg.svg");
+    background-repeat: no-repeat;
+    height: 285px;
+}
+
+.header-background {
+    height: 285px;
+    background: rgb(22,101,216);
+    background: linear-gradient(0deg, rgba(22,101,216,0.6197829473586309) 50%, rgba(23,217,249,0.4777661406359419) 99%);
+}
+
+.heaer-logo-position {
+    bottom: -55px;
+    left: 25px;
+}
+
+.header-logo {
+    padding: 21px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.header-logo-size {
+    width: 59px;
+    height: 59px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+.header-input-width {
+    width: 512px;
+}
+
+.element-border {
+    border: 1px solid rgba(63, 63, 68, 0.005);
+    box-shadow: 0px 1px 0px rgba(63, 63, 68, 0.05), 0px 1px 3px rgba(63, 63, 68, 0.15);
+    border-radius: 5px;
+}
+
+.card-width {
+    width: 360px;
+}
